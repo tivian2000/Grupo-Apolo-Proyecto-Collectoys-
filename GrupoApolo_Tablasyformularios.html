@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sucursales</title>
+</head>
+<body>
+    <h1>Collectoys</h1>
+    <h2>Registro para Compras de Funkos</h2>
+
+    <form>
+
+        <label for="nombre">Nombre del cliente:</label><br>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="correo">Correo:</label><br>
+        <input type="text" id="correo" name="correo"><br><br>
+
+        <label>Funko de interés:</label><br>
+        <input type="radio" name="funko" value="capitan"> Capitan America<br>
+        <input type="radio" name="funko" value="venom"> Venom Blacklight<br>
+        <input type="radio" name="funko" value="wolf"> Capitan America Wolf<br><br>
+
+        <label>Tipo de producto:</label><br>
+        <input type="checkbox" name="tipo"> Basico<br>
+        <input type="checkbox" name="tipo"> Blacklight<br>
+        <input type="checkbox" name="tipo"> Edicion Especial<br><br>
+
+        <label for="comentario">Mensaje o pedido especial:</label><br>
+        <input type="text" id="comentario" name="comentario"><br><br>
+
+        <input type="submit" value="Registrar Pedido">
+
+    </form>
+
+<br>
+
+    <h2>Sucursales de nuestra tienda de coleccionables</h2>
+
+    <table>
+    <thead>
+        <tr>
+            <th>CIUDAD</th>
+            <th>DIRECCION</th>
+            <th>TELEFONO</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Arequipa</td>
+            <td>Av. Independencia 801</td>
+            <td>955254366</td>
+        </tr>
+        <tr>
+            <td>Lima</td>
+            <td>Centro civico</td>
+            <td>956654897</td>
+        </tr>
+        <tr>
+            <td>Trujillo</td>
+            <td>Jr. Independencia 789</td>
+            <td>956789123</td>
+        </tr>
+
+    </tbody>
+
+    </table>
+<br>
+ <form action="app/validaciones.php" method="get">
+
+        <label>REGISTRO</label>
+        <br><br>
+
+        <label>Nombre de usuario</label>
+        <input type ="text" name="cliente" placeholder ="Ingrese su nombre de usuario" required>
+
+        <br>
+        <label>Contraseña</label>
+        <input type ="text" name="contraseña" placeholder ="Ingrese su contraseña" required>
+
+        <br>
+        <input type ="submit">
+
+        <br><br>
+        <label>LOGIN</label>
+        <br><br>
+
+        <label>Usuario</label>
+        <input type ="text" name="cliente" required>
+        <br>
+
+        <label>Contraseña</label>
+        <input type ="password" name="contraseña" required>
+        <br>
+
+        <input type ="submit">
+
+        <select name="Figuras" id="">
+            <option value="">Categorias</option>
+            <option value="Funkos">Funkos</option>
+            <option value="Coleccionables">Coleccionable</option>
+            <option value="Cartas">Cartas</option>
+        </select>
+
+    </form>
+
+    
+</body>
+</html>
