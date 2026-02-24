@@ -7,141 +7,42 @@
 </head>
 <body>
 
-
-    <audio controls autoplay loop>
-          <source src="audio/Tema.mp3" type="audio/mp3">
-    </audio>
-
-
-    <table >
-
-        <tr>
-            <td rowspan="3">
-                <strong>FUNKO POPS!</strong>
-            </td>
-
-            <td>Capitan America</td>
-            <td><i>Precio</i></td>
-            <th>50</th>
-
-        </tr>
-
-            <td>Venom Blacklight</td>
-            <td><i>Precio</i></td>
-            <th>80</th>
-
-        <tr>
-
-            <td>Capitan America Wolf</td>
-            <td><i>Precio</i></td>
-            <th>60</th>
-    
-        </tr>
-
-    </table>
-    <br>
-
-    <table >
-
-        <tr>
-              <td colspan="3">
-                <strong>FUNKOS</strong>
-            </td>
-              
-        </tr>
-
-        <tr>
-            <td>BASICOS</td>
-            <td>Precio</td>
-            <td><strong>55</strong></td>
-        </tr>
-            <td>BLACKLIGHT</td>
-            <td>Precio</td>
-            <td><strong>70</strong></td>
-        <tr>
-            <td>EDICION ESPECIAL</td>
-            <td>Precio</td>
-            <td><strong>60</strong></td>
-        </tr>
-
-    </table>
-    <br>
-
-    <br>
-  
-    <table>
-
-       <thead>
-        <tr>
-            <th>ATENCION</th>
-            <th>HORARIOS</th>
-        </tr>
-       </thead>
-
-    
-
-        <tbody>
-
-            <tr>
-                <td>LUNES</td>
-                <td>8:00am - 7:00pm</td>
-            </tr>
-
-            <tr>
-                <td>MARTES</td>
-                <td>8:00am - 7:00pm</td>
-            </tr>
-
-             <tr>
-                <td>MIERCOLES</td>
-                <td>8:00am - 7:00pm</td>
-            </tr>
-
-             <tr>
-                <td>JUEVES</td>
-                <td>8:00am - 6:00pm</td>
-            </tr>
-
-             <tr>
-                <td>VIERNES</td>
-                <td>8:00am - 6:00pm</td>
-            </tr>
-
-            <tr>
-                <td>SABADO</td>
-                <td>9:00am - 2:00pm</td>
-            </tr>
-
-        
-        </tbody>
-
-         <tfoot>
-            <tr>
-                <td><strong>DELIVERY</strong></td>
-                <td>Todos los dias</td>
-            </tr>
-        </tfoot>
-
-    </table>
-    <br>
-
     <header>
+        <audio controls autoplay loop>
+            <source src="audio/Tema.mp3" type="audio/mp3">
+        </audio>
+        <br>
+
         <h1>Collectoys</h1>
-    </header>
 
-    
-        <h2>Categorias</h2>
-        <ul>
+        <a href ="Paginas/Registro.html">Registro</a>
+        <a href ="Paginas/Login.html">Login</a>
+        <a href ="Paginas/carrito.html">Carrito</a>
         
-            <li><a href="Paginas/Funkos.html">Funkos</a></li>
-            <li><a href="Paginas/Figuras.html">Figuras</a></li>
-            <li><a href="Paginas/Juguetes.html">Juguetes</a></li>
-            <li><a href="Paginas/Llaveros.html">Llaveros</a></li>
-            <li><a href="Paginas/Cartas.html">Cartas</a></li>
-            
-        </ul>
 
-        <aside>
+             <br><br>
+
+            <select name="Catalogo" id="">
+            <option value="">Catálogo</option>
+            <option value="Funkos">Ediciones limitadas</option>
+            <option value="Funkos">Figuras de accion</option>
+            <option value="Funkos">Funko Pop</option>
+            <option value="Funkos">Peliculas y series</option>
+            <option value="Coleccionables">Videojuegos</option>
+            <option value="Cartas">Anime</option>
+            <option value="Cartas">Estatuas</option>
+
+
+            </select>
+
+            <h3>Redes sociales</h3>
+        <a href="https://www.facebook.com/poptoonsculture" target="_blank">Facebook</a> <a href="https://www.instagram.com/poptoons_culture/" target="_blank">Instagram</a> <a href="https://www.tiktok.com/@poptoonsculture?lang=es"target="_blank">TikTok</a>
+
+            
+    </header>
+    <br>
+
+
      <video controls loop width="250" muted autoplay>
 
              <source src="vids/Funko01.mp4" type="video/mp4">
@@ -160,58 +61,155 @@
              
     </video>
 
-    </aside>
-    <br>
     
-    <aside>
+    <table >
 
-            <img src="imgs/Funko Capitan America.jpg" title ="Capitan America" width="240">
-            <img src="imgs/Funko Venom.avif" title ="Venom Blacklight" width="240">
-            <img src="imgs/Funko Wolf.jpg" title ="Venom Blacklight" width="240">
+        <tr>
+            <td colspan="3">
+                <h3>Funkos</h3>
+            </td>
+              
+        </tr>
 
-            
-    </aside>
-    <br>
-        
+        <tr>
+            <td>Basicos</td>
+            <td>Blacklight</td>
+            <td><strong>55</strong></td>
+        </tr>
+            <td>BLACKLIGHT</td>
+            <td>Precio</td>
+            <td><strong>70</strong></td>
+        <tr>
+            <td>EDICION ESPECIAL</td>
+            <td>Precio</td>
+            <td><strong>60</strong></td>
+        </tr>
+
+    </table>
+
+    <h3>Funko de interés:</h3>
+        <input type="radio" name="funko" value="capitan"> Basico <strong>Precio: s/55</strong><br>
+        <input type="radio" name="funko" value="venom"> Blacklight <strong>Precio: s/70</strong><br>
+        <input type="radio" name="funko" value="wolf"> Especial <strong>Precio: s/60</strong><br><br>
+        <input type="submit" value="Comprar">
     
 
     <section>
-        <article>
 
-            <h2><a href="Paginas/Publicacion01.html" target="_blank">Publicaciones</a></h2>
+     <article>
+
+            <h3><a href="Paginas/Publicacion01.html" target="_blank">Publicaciones</a></h3>
             <p>Mira las ultimas noticias en nuestras publicaciones</p>
+            <img src="https://poptoonsculture.com/cdn/shop/articles/TOY_FAIR_2.png?v=1770483571&width=340">
 
-        </article>
+     </article>
 
     </section>
 
-    <aside>
+    <br>
 
-        <h2>Redes sociales</h2>
-        <a href="https://www.facebook.com/poptoonsculture" target="_blank">Facebook</a> <a href="https://www.instagram.com/poptoons_culture/" target="_blank">Instagram</a> <a href="https://www.tiktok.com/@poptoonsculture?lang=es"target="_blank">TikTok</a>
-        
-    </aside>
+    <h3>Locales</h3>
+    <table>
+    <thead>
+        <tr>
+            <th>Ciudad</th>
+            <th>Direccion</th>
+            
+        </tr>
+    </thead>
 
+    <tbody>
+        <tr>
+            <td>Arequipa</td>
+            <td>Av. Independencia 801</td>
+            
+        </tr>
+        <tr>
+            <td>Lima</td>
+            <td>Centro civico</td>
+            
+        </tr>
+        <tr>
+            <td>Trujillo</td>
+            <td>Jr. Independencia 789</td>
+            
+        </tr>
+
+    </tbody>
+
+    </table>
+
+    <br>
+    <h3>Horarios de atencion</h3>
+    <table>
+
+       <thead>
+        <tr>
+            <th><h3>Atencion</h3></th>
+            <th><h3>Horario</h3>
+        </tr>
+
+       </thead>
+
+        <tbody>
+
+            <tr>
+                <td>Lunes</td>
+                <td><i>9:00am - 7:00pm</i></td>
+            </tr>
+
+            <tr>
+                <td>Martes</td>
+                <td><i>9:00am - 7:00pm</i></td>
+            </tr>
+
+            <tr>
+                <td>Miercoles</td>
+                <td><i>9:00am - 7:00pm</i></td>
+            </tr>
+
+            <tr>
+                <td>Jueves</td>
+                <td><i>9:00am - 7:00pm</i></td>
+            </tr>
+
+            <tr>
+                <td>Viernes</td>
+                <td><i>9:00am - 9:00pm</i></td>
+            </tr>
+
+            <tr>
+                <td>Sabado</td>
+                <td><i>10:00am - 4:00pm</i></td>
+            </tr>
+
+            <tfoot>
+            <tr>
+                <td>Delivery</td>
+                <td><strong>Todos los dias</strong></td>
+            </tr>
+            </tfoot>
+        </tbody>
+
+    </table>
 
     <footer>
 
-         <h2>Contactanos</h2>
-        <h3>Ventas</h3>
-        <p>
-            Jair Sebastian Ordaya Flores:
-             <a href="mailto:IV70891049@idat.pe" target="_blank">IV70891049@idat.pe</a></p>
-       <p>Jefferson Dan Huayta Nuñez: 
-        <a href="mailto:IV72217115@idat.pe" target="_blank">IV72217115@idat.pe</a></p>
-       <p>Jefferson Alexander Sanches Villalobos: 
-        <a href="mailto:PT61333956@idat.pe" target="_blank">PT61333956@idat.pe</a></p>
+        <h3>Contactanos</h3>
+        <h4>Ventas</h4>
+        <p>Jair Sebastian Ordaya Flores:<a href="mailto:IV70891049@idat.pe" target="_blank">IV70891049@idat.pe</a></p>
+        <p>Jefferson Dan Huayta Nuñez:<a href="mailto:IV72217115@idat.pe" target="_blank">IV72217115@idat.pe</a></p>
+        <p>Jefferson Alexander Sanches Villalobos:<a href="mailto:PT61333956@idat.pe" target="_blank">PT61333956@idat.pe</a></p>
 
+    
+    <h3>Atencion al Cliente</h3>
 
-        <h2>Atencion al Cliente</h2>
         <a href="Paginas/PReembolso.html" target="_blank">Política de reembolso</a>
         <a href="Paginas/PEnvio.html" target="_blank">Política de envío</a>
         <a href="Paginas/TServicio.html" target="_blank">Términos del servicio</a>
-
-
+        <a href="Paginas/reclamo.html" target="_blank">Libro de reclamaciones</a>
+     
     </footer>
+
 </body>
 </html>
