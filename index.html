@@ -39,21 +39,21 @@
             </table>
        
             <!-- Catalogo -->  
-
+          <nav> 
             <div align="center">
 
-            <select name="Catalogo" id="" >
+            <select name="Catalogo" onchange="location.href = this.value;">
             <option value="">Catálogo</option>
-            <option value="Funkos">Ediciones limitadas</option>
-            <option value="Funkos">Figuras de accion</option>
-            <option value="Funkos">Funko Pop</option>
-            <option value="Funkos">Peliculas y series</option>
-            <option value="Coleccionables">Videojuegos</option>
-            <option value="Cartas">Anime</option>
-            <option value="Cartas">Estatuas</option>
-
+            <option value="#hunterxhunter">Funkos HunterXHunter</option>
+            <option value="#chase">Funkos Chase</option>
+            <option value="Paginas/Publicacion03.html">Funkos San Valentin</option>
+            <option value="Paginas/Publicacion02.html">Formatos Funko Pop</option>
+            <option value="#publicaciones">Publicaciones</option>
+            <option value="#atencion">Atencion al cliente</option>
+            
             </select>
             </div>
+          </nav>   
 
 <!-- Logo, Registro, Login, Carrito y Categorias -->  
 
@@ -100,9 +100,9 @@
 <!-- Titulo de los productos -->   
     
     <div align="center">
-    <h1> Funkos de la serie HunterXHunter </h1>
-    <h3> Funkos de la serie de manga escrita e ilustrada por Yoshihiro Togashi</h3>
-    <img src = "imgs/HxH_Logo.png"width="150">
+      <h1> Funkos de la serie HunterXHunter </h1>
+      <h3> Funkos de la serie de manga escrita e ilustrada por Yoshihiro Togashi</h3>
+      <img src = "imgs/HxH_Logo.png"width="150" id="hunterxhunter">
     </div>
     <br>
 
@@ -181,7 +181,7 @@
     <h1> Funkos Chase </h1>
     <h3> Variantes raras y limitadas de una figura Funko Pop estándar, 
         generalmente producida en una proporción de 1 por cada 6 unidades</h3>
-    <img src = "imgs/Chase.png" width="150">
+    <img src = "imgs/Chase.png" width="150" id="chase">
     </div>
     <br>
 
@@ -256,7 +256,7 @@
 <!-- Titulo Publicaciones -->  
 
     <br><br>
-    <div align="center">
+    <div align="center" id="publicaciones">
     <h1> Publicaciones </h1>
     <h3> Mantente al tanto de las ultimas noticias del mundo del coleccionismo</h3>
     </div>
@@ -393,7 +393,7 @@
     <a href=""><img src = "imgs/Tiktok_logo.png" width="50"></a>
     <a href=""><img src = "imgs/Instagram_logo.png" width="50"></a>
 
-    <h3>Atencion al Cliente</h3>
+    <h3 id="atencion">Atencion al Cliente</h3>
 
     <!--Se elimino el target="_blank"-->
         <a href="Paginas/PReembolso.html">Política de reembolso</a>
