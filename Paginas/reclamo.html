@@ -15,28 +15,92 @@
 </head>
 <body>
 
-    <div align="center"><a href="../index.html"><img src="../imgs/Logo_Collectoys.png" width="250"></a></div>
+    <div align="center">
 
-    <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre">
+        <a href="../index.html">
+            <img src="Imgs/Logo_Collectoys.png" width="250">
+        </a>
 
-        <label for="correo">Correo:</label>
-        <input type="text" id="correo" name="correo">
+        <h2>Libro de Reclamaciones</h2>
 
-        <br><br>
-        <select name="Tienda" id="">
-            <option value="">Local</option>
-            <option value="Funkos">Trujillo</option>
-            <option value="Funkos">Arequipa</option>
-            <option value="Funkos">Lima</option>
+        <form action="" method="get">
 
-            </select>
+            <table border="3" cellpadding="12" width="500">
 
-            <br><br>
-    <textarea name="texto" id=""> </textarea>
-     <br><br>
-    <input type ="submit" value="Enviar">
-    
-    
+                <tr>
+                    <td><b>Nombre completo:</b></td>
+                    <td>
+                        <input type="text" name="nombre">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><b>DNI:</b></td>
+                    <td>
+                        <input type="text" name="dni">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><b>Correo:</b></td>
+                    <td>
+                        <input type="text" name="correo">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><b>Teléfono:</b></td>
+                    <td>
+                        <input type="text" name="telefono">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><b>Local:</b></td>
+                    <td>
+                        <select name="local">
+                            <option>Lima</option>
+                            <option>Arequipa</option>
+                            <option>Trujillo</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><b>Tipo:</b></td>
+                    <td>
+                        <select name="tipo">
+                            <option>Reclamo</option>
+                            <option>Queja</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><b>Detalle del reclamo:</b></td>
+                    <td>
+                        <textarea name="detalle" rows="5" cols="30"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><b>Pedido del cliente:</b></td>
+                    <td>
+                        <textarea name="pedido" rows="4" cols="30"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Enviar Reclamo">
+                    </td>
+                </tr>
+
+            </table>
+
+        </form>
+
+    </div>
+
 </body>
 </html>
